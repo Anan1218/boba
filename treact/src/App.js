@@ -29,7 +29,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import ComponentRenderer from "ComponentRenderer.js";
 import MainLandingPage from "MainLandingPage.js";
 import SaaSProductLandingPage from "./demos/SaaSProductLandingPage";
-
+import Creator from "./usedPages/Creator";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 export default function App() {
@@ -44,7 +44,7 @@ export default function App() {
           <ComponentRenderer />
         </Route> */}
         <Route path="/">
-          <SaaSProductLandingPage />
+          <Creator />
         </Route>
       </Switch>
     </Router>
