@@ -58,7 +58,7 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
 
-export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }) => {
+export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "Easy way to provide the creators with a stable income so they are motivated to publish great work. " }) => {
   /*
    * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:
    *  1) imageSrc - the image shown at the top of the card
@@ -71,13 +71,19 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
     {
       imageSrc: ShieldIconImage,
       title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security."
+      description: "We take the privacy of both the creator and the donator seriously. "
     },
-    { imageSrc: SupportIconImage, title: "24/7 Support" },
-    { imageSrc: CustomizeIconImage, title: "Customizable" },
-    { imageSrc: ReliableIconImage, title: "Anan Gay" },
-    { imageSrc: FastIconImage, title: "Fast" },
-    { imageSrc: SimpleIconImage, title: "Easy" }
+    { imageSrc: SupportIconImage, title: "24/7 Support", 
+    description: "Great support team to answer all of your questions. "
+  },
+    { imageSrc: CustomizeIconImage, title: "Customizable", 
+  description:"Adjust the number of bobas you want to support the creators with." },
+    { imageSrc: ReliableIconImage, title: "Involved" ,
+  description:"Involve your supporters in your creative process and share your newest work. "},
+    { imageSrc: FastIconImage, title: "Fast",
+  description:"Get your boba right away and have no delay between donation and receiving." },
+    { imageSrc: SimpleIconImage, title: "Easy", 
+  description : "Help your favorite creators out by simply click of a button. " }
   ];
 
   if (!cards) cards = defaultCards;

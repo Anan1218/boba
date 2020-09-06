@@ -60,15 +60,15 @@ export default ({
   const defaultSteps = [
     {
       heading: "Register",
-      description: "Create an account with us using Google or Facebook."
+      description: "Create an account and claim your page."
     },
     {
-      heading: "Download",
-      description: "Browse and Download the template that you like from the marketplace."
+      heading: "Share",
+      description: "Upload your work and informe your readers about your page."
     },
     {
-      heading: "Run",
-      description: "Follow the instructions to setup and customize the template to your needs."
+      heading: "Earn",
+      description: "Receive donatinos from supports with no transaction fees."
     }
   ];
 
