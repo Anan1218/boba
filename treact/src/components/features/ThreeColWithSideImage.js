@@ -75,7 +75,7 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
     },
     { imageSrc: SupportIconImage, title: "24/7 Support" },
     { imageSrc: CustomizeIconImage, title: "Customizable" },
-    { imageSrc: ReliableIconImage, title: "Reliable" },
+    { imageSrc: ReliableIconImage, title: "Anan Gay" },
     { imageSrc: FastIconImage, title: "Fast" },
     { imageSrc: SimpleIconImage, title: "Easy" }
   ];
