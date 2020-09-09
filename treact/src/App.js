@@ -44,7 +44,7 @@ export default function App() {
           <ComponentRenderer />
         </Route> */}
         <Route path="/">
-          <Creator />
+          <Creator/>
         </Route>
       </Switch>
     </Router>

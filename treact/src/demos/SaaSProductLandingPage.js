@@ -29,16 +29,11 @@ export default () => {
         subheading={<Subheading>Features</Subheading>}
         heading={
           <>
-            We have Amazing <HighlightedText>Service.</HighlightedText>
+            We Are Loved By Creators <HighlightedText>Worldwide.</HighlightedText>
           </>
         }
       />
-      <MainFeature
-        subheading={<Subheading>Quality Work</Subheading>}
-        imageSrc={heroScreenshotImageSrc}
-        imageBorder={true}
-        imageDecoratorBlob={true}
-      />
+
       <FeatureWithSteps
         subheading={<Subheading>STEPS</Subheading>}
         heading={
@@ -136,6 +131,12 @@ export default () => {
             customerTitle: "Founder, EventsNYC"
           }
         ]}
+      />
+            <MainFeature
+        subheading={<Subheading>Our Goal</Subheading>}
+        imageSrc={heroScreenshotImageSrc}
+        imageBorder={true}
+        imageDecoratorBlob={true}
       />
       <FAQ
         subheading={<Subheading>FAQS</Subheading>}
